@@ -1,7 +1,13 @@
 #!/bin/bash
 
 
-uri=localhoist:9090
+
+
+curl -v localhost:8080
+
+curl -v localhost:90
+
+uri=localhost:9090
 
 # Check the HTTP status code for the application
 echo "Checking status codes"
